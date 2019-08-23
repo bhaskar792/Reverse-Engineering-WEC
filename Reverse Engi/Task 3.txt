@@ -1,0 +1,9 @@
+loaded the binary in gdb
+examined the assembly using layout asm.
+found register storing 'brooooo'
+checked value of register at each step using layout reg.
+found where string comparison is happening.
+just before calling string comaparison found that 'op' is appended to 'brooooo'
+examined string comparison and confirmed it is the password as it was xor'ed with input string
+found the password.
+got the flag:web_club

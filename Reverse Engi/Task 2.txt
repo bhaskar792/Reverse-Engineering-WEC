@@ -1,0 +1,5 @@
+opened the binary in gdb.
+checked functions using info function found two user defined function main and please_exit.
+checked register and assembly at each step using tui mode and iterating with stepi.
+skipped please_exit function call by jump *address
+and continued the program using c and found the Flag "dont_mess"

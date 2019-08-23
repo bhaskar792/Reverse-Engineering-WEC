@@ -1,0 +1,5 @@
+Flag 1
+
+opened compiled program in gdb.
+changed value of variable stuff using set stuff=64
+variable stuff is changed
